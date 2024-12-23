@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0f51bbaa6a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- <form id="form" onsubmit="return formSubmit()"> -->
+    <div id="input_container">
+      <form id="form">
+        <label for="searchBox" style="font-size:x-large;">
+          <span style="color:palevioletred;">Search</span>
+          <span style="color:cyan; font-weight: 600">Github</span>
+          <span style="color:palevioletred">Profile</span>
+          
+          </label
+        >
+       <!-- div for searchbox and button -->
+        <div style="width:100%; display: flex;">
+          <input
+            type="text"
+            id="searchBox"
+            autofocus
+            placeholder="Enter Username"
+          />
+          &nbsp;
+          &nbsp;
+          <button type="submit" id="searchButton" onsubmit="formSubmit()">
+            <!-- <i class="fa-solid fa-magnifying-glass " style="color: #eff1f6;"></i> -->
+          </button>
+        </div>
+      </form>
+      
+      <main id="main"></main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

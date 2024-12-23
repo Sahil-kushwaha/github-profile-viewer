@@ -1,0 +1,12 @@
+{
+
+  "name": "Git profile",
+  "description": "Get a loop of you github profile",
+  "version":"1.0.0",
+  "manifest_version":3,
+  "action":{
+     "default_popup":"index.html",
+     "default_icon":"git_logo.png"
+  }
+
+}
